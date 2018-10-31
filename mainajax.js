@@ -3,7 +3,7 @@
 $('#mybutton').click(function(e){ 
 
 
-alert($('#zip').val()[1]);
+document.getElementById("profit").innerHTML="6000";
 
 
 $.ajax({
