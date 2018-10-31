@@ -406,7 +406,7 @@
                             <h2> File Uploader</h2>
                         </div>
                         <div id="dropzone1" class="multi-uploader-cs">
-                            <form action="/upload" class="" method="post"  enctype="multipart/form-data">
+                            <form id="formupload" action="/upload" class="" method="post"  enctype="multipart/form-data">
                                 
 						<div class="fallback">
 							<input id="file" name="file" type="file" multiple />
@@ -414,7 +414,7 @@
 									</br>
 								<input type="radio" value="csv" name="fileformat" id="fileformat" class="i-checks">CSV 
 								<input type="radio" value="excel" name="fileformat" id="fileformat" class="i-checks">EXcel</br>
-                                <button data-toggle="tooltip" data-placement="right" title="Submit" class="btn"><i class="notika-icon notika-sent">Submit</i></button>
+                                <button id="formuploadb" data-toggle="tooltip" data-placement="right" title="Submit" class="btn"><i class="notika-icon notika-sent">Submit</i></button>
 	
                             </form>
                         </div>
