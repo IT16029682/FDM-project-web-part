@@ -1,6 +1,6 @@
 
 
-$('#mybutton').click(function(e){ 
+$('#mybutton').click(function(e){
 
 
 
@@ -35,10 +35,10 @@ $.ajax({
   					"avggift":$('#avggift').val()
   				}
   }),
-   
+
   success: function(data){
 	  $('res').html( JSON.stringify( data ) );
-    
+
   },
   error: function(data) {
 	   $('res').html( JSON.stringify( data ) );
@@ -58,9 +58,9 @@ $.ajax({
 
 
 $("form#formupload").submit(function(e) {
-	
-	alert($('#fileformat:checked').val());
-    e.preventDefault();    
+
+	//alert($('#fileformat:checked').val());
+    e.preventDefault();
     var formData = new FormData(this);
 
     $.ajax({
@@ -68,11 +68,10 @@ $("form#formupload").submit(function(e) {
         type: 'POST',
         data: formData,
         success: function (data) {
-            alert(data);
+          //alert(data);
         },
         cache: false,
         contentType: false,
         processData: false
     });
 });
-
