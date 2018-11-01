@@ -3,7 +3,7 @@
 $('#mybutton').click(function(e){ 
 
 
-document.getElementById("profit").innerHTML="6000";
+
 
 
 $.ajax({

@@ -106,22 +106,7 @@
     
     <!-- Mobile Menu end -->
     <!-- Main Menu area start-->
-    <div class="main-menu-area mg-tb-40">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
-                        <li><a  href="index.html"><i class="notika-icon notika-house"></i> Home</a>
-                        </li>
-                        
-                    </ul>
-                    
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Main Menu area End-->
 
 	
@@ -132,8 +117,8 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <form id="myform"  method="post"  class="form-element-list">
                         <div class="basic-tb-hd">
-                            <h2>Input Text</h2>
-                            <p>Text Inputs with different sizes by height and column.</p>
+                            <h2>Single entry</h2>
+                            <p></p>
 							 
                         </div>
                         
@@ -385,7 +370,7 @@
 
 
                     </form>
-					 <button id="mybutton" data-toggle="tooltip" data-placement="left" title="Submit" ><i class="notika-icon notika-sent">Submit</i></button>
+					 <button id="mybutton" data-toggle="tooltip" data-placement="left" title="Submit" onclick="myFunction();"><i class="notika-icon notika-sent">Submit</i></button>
 
                 </div>
             </div>
@@ -415,7 +400,7 @@
 									</br>
 								<input type="radio" value="csv" name="fileformat" id="fileformat" class="i-checks">CSV 
 								<input type="radio" value="excel" name="fileformat" id="fileformat" class="i-checks">EXcel</br>
-                                <button id="formuploadb" data-toggle="tooltip" data-placement="right" title="Submit" class="btn"><i class="notika-icon notika-sent">Submit</i></button>
+                                <button id="formuploadb" data-toggle="tooltip" data-placement="right" onclick = "myFile();" title="Submit" class="btn"><i class="notika-icon notika-sent">Submit</i></button>
 	
                             </form>
                         </div>
@@ -443,37 +428,27 @@
                     <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30">
                         <div class="website-traffic-ctn">
                             <h2><span id="profit" class="counter"  style="font-size:40px;" >50,000</span></h2>
-                            <p>PROFIT</p>
+                             <h4>PROFIT </h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                     <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30">
                         <div class="website-traffic-ctn">
                             <h2><span id="donor" class="counter" style="font-size:40px;">90.60</span>k</h2>
-                            <p>DONOR'S COUNT</p>
+                             <h4>DONOR'S COUNT </h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                     <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30 dk-res-mg-t-30">
                         <div class="website-traffic-ctn">
-                            <h2 style="font-size:40px;">$<span id="expence" class="counter" style="font-size:40px;">40,00</span></h2>
-                            <p>EXPENCE </p>
+                            <h2 style="font-size:40px;">$<span id="expense" class="counter" style="font-size:40px;">40,00</span></h2>
+                            <h4>EXPENSE </h4>
                         </div>
                     </div>
                 </div>
 				
-				
-				
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                    <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30 dk-res-mg-t-30">
-                        <div class="website-traffic-ctn">
-                            <h2><span class="counter" style="font-size:40px;">1,000</span></h2>
-                            <p> </p>
-                        </div>
-                    </div>
-                </div>
 				
 				
 				
@@ -484,7 +459,7 @@
                     <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30 dk-res-mg-t-30">
                         <div class="website-traffic-ctn">
                             <h2><span id="nondonor" class="counter" style="font-size:40px;">1,000</span></h2>
-                            <p>NON-DONOR'S COUNT</p>
+                            <h4>NON-DONOR'S COUNT </h4>
                         </div>
                     </div>
 				</div>
@@ -612,7 +587,7 @@
 	<!-- tawk chat JS -->
 	  <script src="mainajax.js"></script>
 	  
-		
+	<script src="new.js"></script>
     
 </body>
 
